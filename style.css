@@ -3,3 +3,41 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  color: red;
+}
+header{
+  text-align: center;
+}
+#featured-property{
+  flex-direction: column;
+  display :flex;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+  text-align: center;
+}
+.nav {
+  text-align: center;
+}
+nav a{
+align-items: center;
+background-color: gray;
+margin: 20px;
+}
+#featured-property p {
+  text-align: center;
+  width: 800px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+#details{
+  display: inline;
+
+}
+#details div{
+  width: 25%;
+  float: left;
+  text-align: center;
+  background-color: red;
+}
